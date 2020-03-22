@@ -18,7 +18,7 @@
 
 require_once('./LINEBotTiny.php');
 
-$channelAccessToken = 'mv line-bot-sdk-php/vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php linebot0325';
+$channelAccessToken = 'FCo3VewdNGUPMymTpD/btxHGWjAknR6CTvySy6ZWiObauCSHCdUscxgWMoxtNlnJHDCg6pKDXU1lBo0ad0EqNHk9dw5l1Ky1lIWTYmVZDIMJKEoKHGaxhCGT3QMFPtxsP8IcA+QpTmCmSq3KEmTSZwdB04t89/1O/w1cDnyilFU=';
 $channelSecret = 'adee4fcc0c48c19c65e03ae84b8c37d4';
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
